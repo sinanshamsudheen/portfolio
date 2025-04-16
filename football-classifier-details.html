@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>J.A.R.V.I.S. - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- ======================================================= -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="index.html#projects"><i class="bi bi-images navicon"></i><span>Projects</span></a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Football Player Classifier</li>
+          </ol>
+        </nav>
+        <h1>Football Player Classifier</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/football/football-classifier.jpg" alt="Football Player Classifier Web Interface">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Football Player Classifier</h2>
+              <p>
+                Developed an end-to-end Football Player Classifier that identifies football players from images using machine learning. This project covers the entire pipeline, from data collection to deployment on AWS EC2.
+              </p>
+              <p>
+                <strong>Key Features:</strong>
+              </p>
+              <ul>
+                <li><strong>Automated Image Collection</strong>
+                  <ul>
+                    <li>Used Bing Image Downloader to create a dataset of footballer images</li>
+                    <li>Organized images into appropriate categories for training</li>
+                  </ul>
+                </li>
+                <li><strong>Machine Learning Model</strong>
+                  <ul>
+                    <li>Trained an SVM classifier to identify players like Messi, Ronaldo, Neymar, etc.</li>
+                    <li>Applied Support Vector Machine algorithm for accurate classification</li>
+                    <li>Implemented rigorous training and testing procedures</li>
+                  </ul>
+                </li>
+                <li><strong>Image Preprocessing</strong>
+                  <ul>
+                    <li>Applied Wavelet Transform techniques to enhance image features</li>
+                    <li>Optimized preprocessing pipeline for better model performance</li>
+                  </ul>
+                </li>
+                <li><strong>Web Application</strong>
+                  <ul>
+                    <li>Developed a user-friendly UI for image uploads and real-time classification</li>
+                    <li>Created responsive frontend with HTML, CSS, and JavaScript</li>
+                  </ul>
+                </li>
+                <li><strong>Backend API</strong>
+                  <ul>
+                    <li>Built a Flask API that processes images and returns predictions</li>
+                    <li>Implemented efficient request handling and error management</li>
+                  </ul>
+                </li>
+                <li><strong>Cloud Deployment</strong>
+                  <ul>
+                    <li>Successfully deployed the model and API on AWS EC2</li>
+                    <li>Ensured scalability and accessibility for all users</li>
+                  </ul>
+                </li>
+              </ul>
+              <p>
+                <strong>Tech Stack:</strong> Python (OpenCV, Scikit-Learn, Flask), Machine Learning (Support Vector Machine), Frontend (HTML, CSS, JavaScript), Cloud Deployment (AWS EC2, Flask API, Model Serialization with Joblib)
+              </p>
+              <p>
+                <strong>Impact & Learnings:</strong>
+              </p>
+              <ul>
+                <li>Improved computer vision skills by implementing image classification</li>
+                <li>Gained experience in full-stack AI application development</li>
+                <li>Learned cloud deployment strategies using AWS EC2</li>
+                <li>Enhanced understanding of model deployment and API integration</li>
+              </ul>
+              <p>
+                This project showcases my expertise in AI, machine learning, web development, and cloud deployment. It demonstrates my ability to build end-to-end ML solutions that solve real-world problems.
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The Football Player Classifier achieves impressive accuracy in identifying players even from challenging angles and varying lighting conditions. The web interface is intuitive and the response time is remarkably fast.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Marco Silva</h3>
+                  <h4>Sports Analyst</h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong> Machine Learning & Computer Vision</li>
+                <li><strong>Project date</strong> March 2025 - March 2025</li>
+                <li><strong>Skills</strong> Machine Learning, Image Classification, Cloud Deployment</li>
+                <li><strong>GitHub</strong> <a href="https://github.com/sinanshamsudheen/FootballPlayerClassifier" target="_blank">Repository Link</a></li>
+                <li><a href="https://github.com/sinanshamsudheen/FootballPlayerClassifier" target="_blank" class="btn-visit align-self-start">View on GitHub</a></li>
+                <li><a href="https://youtu.be/s5gpQioIjkM" target="_blank" class="btn-visit align-self-start">View Demo</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Muhammed Sinan D</h3>
+      <p>Let's collaborate to transform your ideas into reality!</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/sinanshamsudheen"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/sinanshamsudheen"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/s1nahn/"><i class="bi bi-instagram"></i></a>
+        <a href="https://t.me/ilostzero"><i class="bi bi-telegram"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Muhammed Sinan D</strong> <span>All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

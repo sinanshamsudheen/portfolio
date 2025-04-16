@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Project Details - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- ======================================================= -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="index.html#projects"><i class="bi bi-images navicon"></i><span>Projects</span></a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Project Details</li>
+          </ol>
+        </nav>
+        <h1>Project Details</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/bangalore/home-price-predictor.jpg" alt="Bangalore House Price Prediction Dashboard">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Bangalore House Price Prediction - AI-Powered Real Estate Insights</h2>
+              <p>
+                This project leverages machine learning to predict real estate prices in Bangalore, helping buyers and investors make informed decisions. Using historical data and advanced algorithms, it provides accurate property price estimates through a web-based interface.
+              </p>
+              <p>
+                <strong>Key Components:</strong>
+              </p>
+              <ul>
+                <li><strong>Data Processing & Feature Engineering</strong> - The dataset containing real estate transactions in Bangalore was preprocessed to handle missing values, outliers, and categorical variables. Feature engineering techniques like location encoding and area-based filtering were applied to enhance model performance.</li>
+                <li><strong>Machine Learning Model</strong> - A regression model was trained using various algorithms, including Linear Regression and Random Forest, to predict property prices. Hyperparameter tuning and cross-validation ensured optimal performance. The trained model was serialized using Pickle for deployment.</li>
+                <li><strong>Web Application</strong> - A user-friendly web interface was developed using HTML, CSS, and JavaScript, allowing users to input property details such as location, square footage, and the number of bedrooms to get real-time price predictions.</li>
+                <li><strong>Flask Backend (Server) & AWS Deployment</strong> - The machine learning model was deployed using Flask, enabling API-based predictions. The backend efficiently handles user requests, processes inputs, and returns estimated prices. The entire application was hosted on an AWS EC2 server, ensuring scalability, reliability, and seamless access.</li>
+              </ul>
+              <p>
+                <strong>Technologies Used:</strong> Python, Pandas, NumPy, Scikit-Learn, Flask, JavaScript, HTML, CSS, AWS
+              </p>
+              <p>
+                <strong>Impact:</strong> This project transforms real estate data into actionable insights, improving price transparency and aiding informed decision-making.
+              </p>
+              <p>
+                <strong>Accuracy:</strong> 85%
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I was amazed by the accuracy of the Bangalore house price prediction model. As a real estate investor, this tool has become invaluable for my property decisions. The user interface is intuitive and the price estimates have proven to be remarkably reliable.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+
+              <!-- <p>
+                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+              </p>
+
+              <p>
+                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
+              </p> -->
+
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong> Machine Learning & Data Science</li>
+                <li><strong>Project date</strong> March 2025 - Present</li>
+                <li><strong>GitHub</strong> <a href="https://github.com/sinanshamsudheen/AiML/tree/main/Projects/BangloreHomePrices" target="_blank">Repository Link</a></li>
+                <li><a href="https://github.com/sinanshamsudheen/AiML/tree/main/Projects/BangloreHomePrices" target="_blank" class="btn-visit align-self-start">View Repository</a></li>
+                <li><a href="https://youtu.be/voL2FyAqs8c" target="_blank" class="btn-visit align-self-start">View Demo</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Muhammed Sinan D</h3>
+      <p>Let's collaborate to transform your ideas into reality!</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/sinanshamsudheen"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/sinanshamsudheen"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/s1nahn/"><i class="bi bi-instagram"></i></a>
+        <a href="https://t.me/ilostzero"><i class="bi bi-telegram"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Muhammed Sinan D</strong> <span>All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
