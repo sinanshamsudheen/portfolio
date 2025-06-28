@@ -1,0 +1,47 @@
+﻿Muhammed Sinan D +91 9567510016 | sinanshamsudheen7@gmail.com | LinkedIn | Portfolio “Emerging AI Engineer | Building Production-Ready ML, NLP, GenAI, and RAG Systems at Scale” 
+EDUCATION 
+Sree Chitra Thirunal College of Engineering 2023-2027 Bachelor’s in Computer & Engineering (Artificial Intelligence & Machine Learning) 
+Semester 4 | 9.18 SGPA 
+EXPERIENCE 
+Machine Learning Intern – TrustLab, IIT Bombay May 2025 - Present | On-site ● Building real-world ML systems for cybersecurity threats like phishing URLs, email spam, firewalls, anomalies, and data leaks. 
+● Built a Kafka pipeline streaming ~10,000 logs/min and generating 50K+ synthetic samples for anomaly detection, achieving 98% recall at 97% precision, and 99% accuracy using Logistic Regression + TF-IDF. Integrated SHAP for explainability and deployed scalable APIs via FastAPI & Docker, reducing inference latency by 40%. 
+● Collaborating with a research team to optimize real-time threat detection performance. SKILLS 
+AI & ML: Regression, Classification, Clustering, Feature Engineering, Model Tuning Languages: Python, C, C++, Java, HTML, SQL, PL/SQL 
+Database: MySQL, MongoDB(Basic), Pandas, Matplotlib & Seaborn. 
+Deep Learning: ANNs, CNNs, RNNs, Transformers, LSTM. 
+NLP & CV: TF-IDF, Word2Vec, Naive Bayes, Regex, OpenCV 
+GenAI & LLMs: LangChain, Hugging Face Transformers, Agno (Phidata), Vector DBs, RAG, AI Agents  MLOps & Automation: FastAPI, MLflow, Docker, Git, CI/CD basics, Dagshub, n8n 
+Visualization: Matplotlib, Seaborn 
+Tools: GitHub, Jupyter, VSCode, Notion 
+Data Handling: Pandas, NumPy, SQL 
+Cloud & Deployment: AWS, Azure (Basic), Streamlit, FastAPI 
+Core Competencies: End-to-End ML Development, Model Deployment & MLOps, Generative AI & LLM Integration, Real-Time Data Pipelines, Explainable AI (SHAP), Agile & Research-Driven Execution 
+PROJECTS & RESEARCH 
+JARVIS – Advanced AI Voice Assistant Demo | GitHub Tech Stack: Python, AsyncIO, Tkinter, Groq, Cohere, TTS, BeautifulSoup, GenAI(LLMs) ● Developed a real-time AI voice assistant supporting multilingual queries, leveraging async/multiprocessing for concurrent command execution and system automation. ● Integrated Groq + Cohere APIs for AI-based text generation, chatbot logic, and contextual smart search with <1s response time. 
+● Designed animated GUI with TTS feedback; implemented file sorting, web scraping (BeautifulSoup), and application control for an interactive desktop experience. 
+Football Player Classifier – Real-Time Image Recognition System Demo | GitHub Tech Stack: Python, OpenCV, Scikit-learn, SVM, Flask, HTML/CSS/JS, AWS EC2 
+● Engineered an SVM-based image classifier using OpenCV and wavelet features to recognize 5+ footballers (Messi, Ronaldo, Neymar, etc.) with ~80% accuracy. 
+● Implemented a full-stack Flask app for real-time classification with <1s inference latency, deployed on AWS EC2 for scalable cloud access.
+● Enabled end-to-end deployment with model serialization via Joblib and user-facing frontend using HTML/CSS/JS. 
+Bangalore Home Prices – Real Estate Price Prediction System Demo | GitHub Tech Stack: Python, Pandas, Scikit-learn, Flask, HTML/CSS/JS, AWS EC2 
+● Trained Linear Regression and Random Forest models on 1,300+ listings, achieving ~95% accuracy and reducing MAE by 35% through outlier removal and feature engineering. 
+● Included an interactive Flask web app for dynamic price prediction based on location, area, and BHK input. 
+● Deployed on AWS EC2 with real-time predictions via API endpoints, offering accessible insights for buyers and investors. 
+Article Research Assistant – LLM-Powered QA Tool Demo | GitHub Tech Stack: LangChain, Cohere (Embeddings & Chat), FAISS, Streamlit, Python 
+● Developed a LangChain-powered research assistant to process and chunk up to 3 URLs/articles at a time, enabling real-time, source-aware Q&A using Cohere embeddings and ChatCohere. 
+● Achieved sub-2s response time for summarization, keyword extraction, and entity-based queries via a custom FAISS vector index. 
+● Deployed an interactive Streamlit UI supporting SEO analysis, academic research, and content mining with semantic search and traceable answers. 
+25+ Python Mini Projects – Automation, Utilities & Real-World Scripts | GitHub Tech Stack: Python, Regex, Web Scraping, APIs, OOP, File Handling 
+● Automated 25+ real-world tasks through scripts for file sorting, email dispatch, internet speed testing, WhatsApp bots, and PDF utilities, reducing repetitive workload by up to 80%. ● Integrated APIs from YouTube, Instagram, WhatsApp, and others to build practical tools used in everyday scenarios. 
+● Reinforced core Python concepts like OOP, exception handling, and regex while building CLI, GUI, and bot-based apps. 
+CERTIFICATIONS 
+● SQL Case Study – SQL Workshop by Infosys Springboard 
+● Machine Learning With TensorFlow by Infosys Springboard 
+● Ethical Hacking – Beginner By Offenso Academy 
+● Hands-On Innovations with LLMs and RAG 1-Day Workshop by InApp 
+ACTIVITIES 
+● Team Lead of ML Approaches at IITB TrustLab 
+● Team Lead of Cultural fests 
+● Under25SCT content writing core team member 
+SUMMARY 
+AI/ML engineer in training with hands-on experience building GenAI and cybersecurity systems at scale. Skilled in deploying production-grade LLM pipelines, anomaly detection engines, and explainable AI models.
